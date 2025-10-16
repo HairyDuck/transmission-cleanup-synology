@@ -1,0 +1,45 @@
+{
+  "transmission": {
+    "rpc_host": "localhost",
+    "rpc_port": "9091",
+    "rpc_user": "user",
+    "rpc_pass": "password",
+    "transmission_paths": [
+      "/volume1/@appstore/transmission/bin/transmission-remote",
+      "/usr/local/bin/transmission-remote",
+      "/usr/bin/transmission-remote",
+      "/opt/bin/transmission-remote",
+      "transmission-remote"
+    ]
+  },
+  "file_extensions": {
+    "unwanted_exts": ["iso", "img", "jpg", "jpeg", "png", "gif", "bmp", "txt", "url", "nfo", "log", "exe"],
+    "allowed_exts": ["mkv", "mp4", "avi", "mov", "wmv", "flv", "webm", "m4v", "srt", "vtt", "ass", "ssa"]
+  },
+  "webhook": {
+    "webhook_url": "https://your-webhook-url.com",
+    "enabled": false,
+    "timeout": 10
+  },
+  "pushbullet": {
+    "access_token": "your-pushbullet-access-token",
+    "enabled": false,
+    "device_iden": ""
+  },
+  "notifications": {
+    "send_on_unselect": true,
+    "send_on_remove": true,
+    "send_on_skip": false,
+    "send_on_keep": false
+  },
+  "logging": {
+    "main_log_file": "cleanup_transmission.log",
+    "processed_log_file": "cleanup_processed.log",
+    "max_log_age_days": 30
+  },
+  "script": {
+    "dry_run": true,
+    "skip_zero_file_torrents": true,
+    "send_skip_webhooks": false
+  }
+}
