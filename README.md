@@ -449,6 +449,20 @@ Get your access token from [Pushbullet Settings](https://www.pushbullet.com/#set
 
 ---
 
+## ⚖️ Legal Disclaimer
+
+**Important**: This script is provided for educational and personal use only. The authors and contributors are not responsible for any legal issues arising from the use of this software.
+
+**Torrenting Legal Notice**:
+- **Check your local laws** - Torrenting may be illegal in your jurisdiction
+- **Use responsibly** - Only download content you have legal rights to access
+- **Respect copyright** - Do not download copyrighted material without permission
+- **You are responsible** - Users are solely responsible for their actions and compliance with applicable laws
+
+**No Warranty**: This software is provided "as is" without any warranty. Use at your own risk.
+
+---
+
   
 
 **Happy torrenting! 🎬📺**
