@@ -1,3 +1,5 @@
+> **Archived.** This cron-based Transmission script is no longer maintained.
+> Use **[Untickarr](https://github.com/HairyDuck/untickarr)** instead: Docker UI, dry-run preview, Sonarr/Radarr blocklist, and Pushover.
 
 # Transmission Cleanup Script
 
